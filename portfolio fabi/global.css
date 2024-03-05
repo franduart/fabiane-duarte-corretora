@@ -1,0 +1,346 @@
+@import url(mobile.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.container .header img{
+    max-width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.apresentacao{
+    margin: 2rem 0;
+}
+
+.apresentacao article{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 70%;
+}
+.apresentacao-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.apresentacao-1 a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #748050;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.apresentacao article img{
+    width: 400px;
+}
+
+
+.container .btn-whats{
+    color: green;
+    position: fixed;
+    left: 95%;
+    transform: translate(-95%, 0%);
+    bottom: 2rem;  
+    z-index: 1;
+}
+.container .btn-whats:hover{
+
+    color: rgb(4, 46, 4);
+    background-color: transparent;
+}
+
+.container p{
+    padding: 3rem 0;
+    color: #202020;
+}
+
+#home{
+    margin-top: 10%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    background-color: #dddde4;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
+}
+#home img{
+   width: 100%;
+   overflow: hidden;
+}
+
+#home p{
+    margin: 0 auto;
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.imoveis_cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 30px;
+    padding: 30px;
+    margin: 2rem 0;
+    max-width: 100%;
+    justify-content: center;
+    justify-items: center;
+    background-color: #ccc;
+    
+
+}
+.card__img .input  {
+	display: inline-block;
+    position: absolute;
+    margin-left: 45%;
+    bottom: 35%;
+    padding: 2px 2px;
+    border-radius: 5px;
+}
+.input:checked  {
+    color: #748050;
+}
+
+
+.card .card__img{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 5px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 5px 3px 3px rgb(168, 166, 166);
+}
+.card__img h3, p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    min-width: 70%;
+    margin: 0 auto;
+}
+.card__img img{
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.container img{
+    max-width: 90%;
+    height: 50%;
+    border-radius: 5px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+   
+}
+.Competências li{
+    padding-bottom: 2rem;
+    max-width: 80%;
+    justify-content: center;
+    justify-items: center;
+    align-items: left;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#about{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ justify-items: center;
+ align-items: center;
+ margin: 2rem auto;
+ text-align: center;
+ gap: 2rem;
+
+}
+
+.about-me picture img{
+    border-radius: 5px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#about p{
+    width: 80%;
+    padding: 2rem 0;
+    text-align: center;
+    color: #202020;
+    align-items: center;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    text-align: center;
+    background-color: #97af53;
+    font-size: 1.2;
+    color: #161515;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    text-decoration: none;
+    padding: 1rem 0;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+footer .footer_section, p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+
+.footer_section svg{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.footer_section svg:hover{
+   color: #fff;
+}
+.info{
+    border-top: 1px solid #000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.conteudos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 1rem;
+}
+.conteudos a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.conteudos a:hover{
+   color: #fff;
+}
+
+.cadastrar-imoveis{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.validacao-conta{
+    min-height: 80vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.form-cont{
+background-color: #ccc;
+}
+
+.validacao-conta form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ccc;
+    padding: 1rem;
+    width: 40%;
+    height: 50vh;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.validacao-conta form fieldset{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ccc;
+    padding: 1rem;
+    height: 80%;
+    width: 100%;
+    border: none;
+    text-align: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.validacao-conta input{
+    height: 2rem;
+    width: 60%;
+    border: none;
+}
+.validacao-conta button{
+   background-color: #fff;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 5px;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+  
+}
+.validacao-conta button:hover{
+    background-color: #ddcccc;
+ }
+
+ .cadastrar-imoveis form{
+    display: flex;
+    flex-direction: column;
+ }
